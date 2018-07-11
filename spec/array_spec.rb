@@ -11,6 +11,8 @@ test_student_names = [
   "Kendrick Lamar",
 ]
 
+
+
 describe "first_student_by_index" do
   it "should return the correct String value" do
     expect(first_student_by_index).to eql("Adele"), "The first student, Adele, was not returned"
