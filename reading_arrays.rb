@@ -30,8 +30,9 @@ fourth_student_by_index
 
 
 def last_student_by_index
-    
+    STUDENT_NAMES.push("Tailor Schwifty")
 end
+last_student_by_index
 
 def first_student_by_method
     STUDENT_NAMES.first
