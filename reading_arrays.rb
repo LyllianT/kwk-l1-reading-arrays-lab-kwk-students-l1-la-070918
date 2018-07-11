@@ -22,12 +22,10 @@ def last_student_by_index
 end
 last_student_by_index
 
-
 def fourth_student_by_index
     STUDENT_NAMES[3]
 end
 fourth_student_by_index
-
 
 def last_student_by_index
     STUDENT_NAMES.push("Tailor Schwifty")
@@ -43,7 +41,6 @@ def last_student_by_method
     STUDENT_NAMES.last
 end
 last_student_by_method
-
 
 def first_second_and_third_students
     STUDENT_NAMES[0]
